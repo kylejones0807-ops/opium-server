@@ -41,7 +41,7 @@ class Connection extends Router {
         this.disconnected = true;
         this.disconnectionTick = this.handle.tick;
         this.listener.onDisconnection(this, this.closeCode, this.closeReason);
-        this.webSocket.removeAllListeners();
+        // this.webSocket.removeAllListeners();
     }
 
     static get type() { return "connection"; }
