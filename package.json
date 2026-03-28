@@ -23,5 +23,8 @@
         "@types/node": "^22.14.0",
         "@types/ws": "^8.18.1",
         "bindings": "^1.5.0"
-    }
+    },
+    "scripts": {
+    "start": "node cli/index.js"
 }
+
